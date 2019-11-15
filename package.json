@@ -49,6 +49,6 @@
 		"node": ">=10.5.0",
 		"npm": ">=6.4.1"
 	},
-	"author": "",
+	"author": "Rasmus P",
 	"license": "ISC"
 }

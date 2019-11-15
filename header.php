@@ -22,7 +22,7 @@ namespace WP_Tailwind;
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?> itemscope itemtype="https://schema.org/WebPage">
+<body <?php body_class(array('bg-gray-200')); ?> itemscope itemtype="https://schema.org/WebPage">
 
 	<?php
 	if ( has_nav_menu( 'primary' ) ) {
@@ -37,6 +37,9 @@ namespace WP_Tailwind;
 	}?>
 
 	<header class="header">
+        <div class="flex items-center w-auto bg-red-500">
+            <div class="container mx-auto"> asfads</div>
+        </div>
 		<div class="container mx-auto">
 			<?php
 			$tag = 'p';

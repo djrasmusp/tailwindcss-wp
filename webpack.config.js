@@ -129,12 +129,12 @@ if (process.env.SERVER) {
 	config.plugins.push(
 		new BrowserSyncPlugin(
 			{
-				proxy: 'https://example.dev',
+				proxy: 'https://rasmusp.local',
 				files: [
 					'**/*.php',
 					'**/*.scss'
 				],
-				port: 3000,
+				port: 80,
 				notify: false,
 			}
 		)
